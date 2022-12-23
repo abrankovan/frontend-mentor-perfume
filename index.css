@@ -12,8 +12,8 @@ body {
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
-  height: 48%;
-  width: 43%;
+  height: 450px;
+  width: 600px;
 }
 
 .img-wrapper {
@@ -26,8 +26,8 @@ body {
 
 .data {
   background-color: hsl(0, 0%, 100%);
-  width: 40%;
-  height: 120%;
+  max-width: 500px;
+  max-height: 600px;
   padding: 0px 30px 20px 30px;
 }
 
@@ -59,9 +59,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 50px;
-  padding-bottom: 3px;
-  height: 15%;
+  padding:10px 50px 15px 0px;
+  height: 50px;
 }
 
 .price {
@@ -82,8 +81,8 @@ body {
   background-color: hsl(158, 36%, 37%);
   border: none;
   border-radius: 10px;
-  width: 95%;
-  height: 8%;
+  width: 230px;
+  height: 50px;
   color: aliceblue;
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
@@ -107,7 +106,7 @@ body {
   margin-right: 5px;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 500px) {
   * {
     margin: 0;
     box-sizing: border-box;
@@ -121,8 +120,8 @@ body {
   .main-part {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 95%;
+    width: 350px;
+    height: 620px;
   }
 
   .img-wrapper img {
@@ -160,7 +159,8 @@ body {
   }
 
   .cart-button {
-    height: 13%;
+    height: 45px;
+    width: 280px;
   }
 }
 
