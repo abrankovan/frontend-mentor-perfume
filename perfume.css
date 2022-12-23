@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:10px 50px 15px 0px;
+  padding: 10px 50px 15px 0px;
   height: 50px;
 }
 
@@ -124,14 +124,14 @@ body {
     height: 620px;
   }
 
+  .img-wrapper {
+    width: 100%;
+  }
+
   .img-wrapper img {
     content: url(./images/image-product-mobile.jpg);
     width: -webkit-fill-available;
     height: fit-content;
-  }
-
-  .img-wrapper {
-    width: 100%;
   }
 
   .data {
